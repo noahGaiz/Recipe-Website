@@ -1,0 +1,86 @@
+
+        body {
+        font-family: 'Roboto', sans-serif;
+        background-color: powderblue;
+        }
+        .dark-mode{
+            background-color: black;
+            color: white;
+        }
+        .light-mode {
+            background-color: powderblue;
+            color: black;
+        }
+        #mode {
+                width: 50%;
+                height: 50%;
+        }
+        
+        
+        ul { list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #000000; } 
+        li { float: left; } 
+        li a { display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;
+        }
+        footer {
+            background-color: powderblue; /* Change to your preferred color */
+            color: #000; /* Change to your preferred text color */
+            background-color: paleturquoise;
+            text-align: center;
+            padding: 10px
+        }
+        
+        img {
+            transition: transform 0.3s ease-in-out;
+            }
+            img:hover {
+            transform: scale(1.1);
+            box-shadow: 3px 3px 5px #888
+            }
+        .carousel-inner img {
+
+                margin: auto;
+                
+            }
+        .carousel-item active img {
+
+                margin: auto;
+                    
+            }
+        .ingredients{
+                margin-left: 200px;
+            }
+            .ingredients h3{
+                margin-top: 50px;
+            }
+        .description{
+                margin-top: 50px;
+                margin-left: 200px;
+            }
+            .description img{
+                margin: 50px 50px 100px 100px;
+            }
+        .DescPara{
+                margin-left: 200px;
+            }
+            .DescPara iframe{
+                margin-left: 100px;
+            }
+        .recipe{
+                margin-left: 200px;
+            }
+            .recipe img{
+                margin-top: 50px;
+                margin-bottom: 50px;
+                margin-left: 100px;
+            }
+        .aboutPage{
+                margin-left: 200px;
+            }
+        .comments{
+                background-color: powderblue;
+                margin-left: 200px;
+            }
+            .comment-box{
+                color:white;
+                background-color: powderblue;
+            }
